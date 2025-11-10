@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 6000;
 // Allowed origins for CORS
 const allowedOrigins = [
   process.env.CLIENT_URL || 'http://localhost:3000',
-  'https://your-frontend.vercel.app' // ⚠️ Replace with your actual Vercel domain
+  'https://frontend-vercel-8kov.vercel.app' // ⚠️ Replace with your actual Vercel domain
 ];
 
 app.use(
